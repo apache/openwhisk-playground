@@ -1,0 +1,32 @@
+{
+  "name": "openwhisk-playground",
+  "version": "1.0.0",
+  "description": "OpenWhisk Playground library",
+  "main": "openwhisk-playground.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "7.7.3",
+    "npm": "4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openwhisk/openwhisk-playground.git"
+  },
+  "keywords": [
+    "OpenWhisk",
+    "playground"
+  ],
+  "author": "Alek Slominski",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "debug": "^2.6.4",
+    "openwhisk": "^2.6.0",
+    "properties-reader": "0.0.15"
+  },
+  "devDependencies": {
+    "nock": "^9.0.13"
+  }
+}
