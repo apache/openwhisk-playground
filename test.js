@@ -1,4 +1,7 @@
-const debug = require('debug')('openwhisk-playground-test')  
+// Licensed to the Apache Software Foundation (ASF) under one or more contributor
+// license agreements; and to You under the Apache License, Version 2.0.
+
+const debug = require('debug')('openwhisk-playground-test')
 const assert = require('assert')
 
 var OpenWhiskPlayground = require("./openwhisk-playground.js")
@@ -33,7 +36,6 @@ function test() {
     debug('error=' + JSON.stringify(err, null, 2))
     assert.ok(false, ' failed '+ JSON.stringify(err));
   }
-
 
   // evaluate
   playground.setInjectLogRetrievalFailure(true)
